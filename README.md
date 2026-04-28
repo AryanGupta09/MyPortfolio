@@ -1,16 +1,70 @@
-# React + Vite
+# Aryan Gupta — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React.js and Vite, showcasing my projects, skills, and achievements.
 
-Currently, two official plugins are available:
+🌐 **Live:** [my-portfolio-three-beige-23.vercel.app](https://my-portfolio-three-beige-23.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm a Computer Engineering student at Lovely Professional University (Aug 2022 – Jun 2026) with a passion for full-stack development, AI-integrated web applications, and cloud computing.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React.js, Vite, JavaScript, HTML5, CSS3, Tailwind CSS
+- **Styling:** Custom CSS with CSS Variables, Google Fonts (Cormorant Garamond, DM Sans, JetBrains Mono)
+- **Deployment:** Vercel
+
+---
+
+## Features
+
+- Responsive design with mobile navigation
+- Animated typing effect for roles/titles
+- Projects section with expandable feature details
+- Skills, Education, Achievements & Certifications sections
+- Smooth scroll navigation
+
+---
+
+## Projects Showcased
+
+### 🏥 SwasthAI – AI-Powered Health & Fitness Platform
+Full-stack MERN application with AI-generated personalized Indian diet plans, BMI tracking, calorie tracking, and an AI fitness coach powered by Groq AI (LLaMA 3.3 70B).
+
+- **Live:** [swasth-ai-frontend.vercel.app](https://swasth-ai-frontend.vercel.app)
+- **GitHub:** [SwasthAIFrontend](https://github.com/AryanGupta09/SwasthAIFrontend)
+- **Stack:** React 18, Vite, Node.js, Express, MongoDB, Groq AI, JWT, bcryptjs
+
+### 🧠 Quizzy – AI-Powered Quiz Platform
+Full-stack quiz app with AI-generated questions, global leaderboard, quiz history, and 30-second per-question timer.
+
+- **Live:** [quizzyf.vercel.app](https://quizzyf.vercel.app)
+- **GitHub:** [quizzyf](https://github.com/AryanGupta09/quizzyf)
+- **Stack:** React 19, Vite, Node.js, Express 5, MongoDB, Groq SDK, JWT, bcryptjs
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Contact
+
+- 📧 [5guptaaryan10@gmail.com](mailto:5guptaaryan10@gmail.com)
+- 💼 [linkedin.com/in/aryan-gupta45](https://linkedin.com/in/aryan-gupta45)
+- 🐙 [github.com/AryanGupta09](https://github.com/AryanGupta09)
