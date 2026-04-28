@@ -686,8 +686,8 @@ export default function App() {
         "Built with React 19, Node.js, Express 5, and MongoDB Atlas with JWT-based authentication",
       ],
       tech: ["React 19", "Vite", "Node.js", "Express 5", "MongoDB", "Groq SDK", "JWT", "bcryptjs"],
-      github: "https://github.com/AryanGupta09/QuizzyFrontend",
-      live: "https://quizzy-frontend.vercel.app",
+      github: "https://github.com/AryanGupta09/quizzyf",
+      live: "https://quizzyf.vercel.app",
     },
   ];
 
