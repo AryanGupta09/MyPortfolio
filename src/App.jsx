@@ -224,7 +224,9 @@ const CSS = `
 
   /* SKILLS */
   #skills { background: var(--surface); }
-  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
+  .skills-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5rem; }
+  @media (max-width: 1024px) { .skills-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 640px)  { .skills-grid { grid-template-columns: repeat(2, 1fr); } }
   .skill-category {
     background: var(--bg); border: 1px solid var(--border);
     border-radius: 12px; padding: 1.5rem;
