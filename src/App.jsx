@@ -246,7 +246,9 @@ const CSS = `
   .skill-tag:hover { color: var(--accent); border-color: var(--accent); box-shadow: 0 0 10px rgba(100,255,218,0.15); }
 
   /* PROJECTS */
-  .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 2rem; }
+  .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  @media (max-width: 1024px) { .projects-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px)  { .projects-grid { grid-template-columns: 1fr; } }
   .project-card {
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 16px; padding: 2rem;
