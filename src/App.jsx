@@ -434,6 +434,20 @@ const PROJECTS = [
     github: "https://github.com/AryanGupta09/quizzyf",
     live: "https://quizzyf.vercel.app",
   },
+  {
+    icon: "🎓",
+    name: "ProcterLink – Secure Online Examination Platform",
+    date: "2025",
+    desc: "Secure online examination platform with AI-powered proctoring and a dedicated Grow & Career Hub for student skill development and career growth.",
+    features: [
+      "Organizer dashboard to create/manage exams with AI-generated questions and descriptions using Groq (llama-3.3-70b)",
+      "Student portal with exam taking, AI-powered learning path generator, resume review, and career hub",
+      "Firebase (Firestore + Auth + Storage) backend with Pinecone vector DB for resume semantic search",
+    ],
+    tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "shadcn/ui", "Firebase", "Groq AI", "Pinecone"],
+    github: "https://github.com/AryanGupta09/Proctoerlink",
+    live: "https://procoterlink.vercel.app",
+  },
 ];
 
 const ACHIEVEMENTS = [
